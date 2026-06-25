@@ -5,7 +5,7 @@ import AiLabSection from "../components/shared/AiLabSection";
 import WhoAreWe from "../components/shared/WhoAreWe";
 import Projects from "./(home)/_components/Projects";
 import LatestNews from "./(home)/_components/LatestNews";
-import ApplicationForm from "./(home)/_components/_apply/ApplicationForm";
+import ApplicationForm from "./(home)/_components/apply/ApplicationForm";
 import Links from "./(home)/_components/Links";
 
 export default function Home() {

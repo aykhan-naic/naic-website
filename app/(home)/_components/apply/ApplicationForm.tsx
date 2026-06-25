@@ -7,8 +7,8 @@ import MaxWidthWrapper from "@/components/layout/MaxWidthWrapper";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 import { formDataSchema, FormData } from "./schema";
-import StepOne from "./step-1";
-import StepTwo from "./step-2";
+import StepOne from "./Step1";
+import StepTwo from "./Step2";
 
 export default function ApplicationForm() {
   const [currentStep, setCurrentStep] = useState<number>(0);

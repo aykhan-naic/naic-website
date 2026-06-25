@@ -1,7 +1,7 @@
 import MaxWidthWrapper from "@/components/layout/MaxWidthWrapper";
 import AiLabSection from "@/components/shared/AiLabSection";
 import WhoAreWe from "@/components/shared/WhoAreWe";
-import OurMissions from "./_components/OurMissons";
+import OurMissions from "./_components/OurMissions";
 import OurValues from "./_components/OurValues";
 
 function Page() {
