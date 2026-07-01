@@ -1,4 +1,4 @@
-import { cn } from "@/src/app/_shared/lib/utils";
+import { cn } from "@/src/app/_shared/utils/utils";
 
 import Link from "next/link";
 import Image from "next/image";

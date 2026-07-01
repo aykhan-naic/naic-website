@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "./layout/MaxWidthWrapper";
+import WhoAreWeImage from "@/src/assets/images/who-are-we.png";
 
 function WhoAreWe() {
   return (
@@ -14,7 +15,7 @@ function WhoAreWe() {
       </MaxWidthWrapper>
       <MaxWidthWrapper className=" max-w-400! h-[75vh] min-h-[600px]">
         <img
-          src="/images/who-are-we.png"
+          src={WhoAreWeImage.src}
           alt="Who Are We"
           className="w-full max-w-full h-full object-cover rounded-[2rem]"
         />

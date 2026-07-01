@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/src/app/_shared/lib/utils";
+import { cn } from "@/src/app/_shared/utils/utils";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import Logo from "@/public/logo.svg";
 import { useEffect, useState } from "react";

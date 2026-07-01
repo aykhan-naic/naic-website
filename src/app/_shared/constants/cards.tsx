@@ -7,6 +7,10 @@ import {
   LucideIcon,
 } from "lucide-react";
 
+import image1 from "@/src/assets/images/ai-lab-sayt.svg";
+import image2 from "@/src/assets/images/ai-lab-sayt.svg";
+import image3 from "@/src/assets/images/ai-lab-sayt.svg";
+
 export interface Card<T = LucideIcon | string> {
   title: string;
   description: string;
@@ -18,19 +22,19 @@ export const aiLabCards: Card<string>[] = [
     title: "Süni İntellekt tədqiqatları",
     description:
       "Süni intellekt alqoritmləri, maşın öyrənməsi və təbii dil emalı üzrə qabaqcıl tədqiqatlar aparırıq.",
-    image: "/images/ai-lab-sayt.svg",
+    image: image1,
   },
   {
     title: "Süni intellekt əsaslı layihələr",
     description:
       "Süni intellekt əsaslı layihələrin yaradılması və inkişafını təmin edirik.",
-    image: "/images/ai-lab-sayt2.svg",
+    image: image2,
   },
   {
     title: "Süni İntellekt tədris proqramı",
     description:
       "Süni intellektin dərinliklərinə qədər anlayışları özündə birləşdirən tədris proqramları təklif edir, kadrlar yetişdiririk.",
-    image: "/images/ai-lab-sayt3.svg",
+    image: image3,
   },
 ];
 

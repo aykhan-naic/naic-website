@@ -1,11 +1,11 @@
-import AcademyImage from "@/public/images/projects/academy.png";
-import DataraceImage from "@/public/images/projects/datarace.png";
-import LegalensImage from "@/public/images/projects/legalens.png";
-import NeyronImage from "@/public/images/projects/neyron.png";
-import AcademyLogo from "@/public/images/projects/logo/academy.svg";
-import DataraceLogo from "@/public/images/projects/logo/datarace.svg";
-import LegalensLogo from "@/public/images/projects/logo/legalens.svg";
-import NeyronLogo from "@/public/images/projects/logo/neyron.svg";
+import AcademyImage from "@/src/assets/images/projects/academy.png";
+import DataraceImage from "@/src/assets/images/projects/datarace.png";
+import LegalensImage from "@/src/assets/images/projects/legalens.png";
+import NeyronImage from "@/src/assets/images/projects/neyron.png";
+import AcademyLogo from "@/src/assets/images/projects/logo/academy.svg";
+import DataraceLogo from "@/src/assets/images/projects/logo/datarace.svg";
+import LegalensLogo from "@/src/assets/images/projects/logo/legalens.svg";
+import NeyronLogo from "@/src/assets/images/projects/logo/neyron.svg";
 
 interface ProjectImages{
   image: string;

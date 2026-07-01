@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 import { StepOneProps } from "./Step.types";
-import { cn } from "@/src/app/_shared/lib/utils";
+import { cn } from "@/src/app/_shared/utils/utils";
 import { options } from "../ApplicationForm/ApplicationForm.constants";
 
 export default function StepOne({ setValue, watch, errors }: StepOneProps) {

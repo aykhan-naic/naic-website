@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Input from "@/src/app/_shared/ui/Input";
 import { StepTwoProps } from "./Step.types";
 import { FileText, Mail, Phone, User } from "lucide-react";
-import formatAzerbaijanPhone from "@/src/app/_shared/lib/formatPhoneNumber";
+import formatAzerbaijanPhone from "@/src/app/_shared/utils/formatPhoneNumber";
 
 export default function StepTwo({ register, errors, setValue }: StepTwoProps) {
   useEffect(() => {

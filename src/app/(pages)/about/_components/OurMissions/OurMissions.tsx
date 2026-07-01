@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import activities from "./OurMissions.constants";
-import MissionImage1 from "@/public/images/mission-1.png";
-import MissionImage2 from "@/public/images/mission-2.png";
+import MissionImage1 from "@/src/assets/images/mission-1.png";
+import MissionImage2 from "@/src/assets/images/mission-2.png";
 import MaxWidthWrapper from "@/src/app/_shared/components/layout/MaxWidthWrapper";
 
 const OurMissions = () => {

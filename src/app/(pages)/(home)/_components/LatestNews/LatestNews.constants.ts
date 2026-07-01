@@ -1,7 +1,7 @@
-import News1 from "@/public/images/news/news-1.png";
-import News2 from "@/public/images/news/news-2.png";
-import News3 from "@/public/images/news/news-3.png";
-import News4 from "@/public/images/news/news-4.png";
+import News1 from "@/src/assets/images/news/news-1.png";
+import News2 from "@/src/assets/images/news/news-2.png";
+import News3 from "@/src/assets/images/news/news-3.png";
+import News4 from "@/src/assets/images/news/news-4.png";
 
 export interface NewsItem {
   title: string;
