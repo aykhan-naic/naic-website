@@ -19,8 +19,23 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": ["./*"],
+      "~/*": [
+        "./src/*"
+      ],
+      "~/app/*": [
+        "./src/app/*"
+      ],
+      "~/assets/*": [
+        "./src/assets/*"
+      ],
+      "~/typings/*": [
+        "./src/typings/*"
+      ],
+      "~/docs/*": [
+        "./src/docs/*"
+      ]
+    },
   },
   "include": [
     "next-env.d.ts",
